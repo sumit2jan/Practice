@@ -1,0 +1,16 @@
+package Searhing;
+
+public class Linear {
+    public static int Linearsrch(int[] arr , int target){
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+        int[] arr = {2,1,5,4,9,8,6};
+        System.out.println(Linearsrch(arr,5));  
+      }
+}
