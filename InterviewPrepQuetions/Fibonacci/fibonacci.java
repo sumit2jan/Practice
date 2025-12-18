@@ -14,7 +14,7 @@ public class fibonacci {
 
     }
 
-    // Without recirsion
+    // Without recursion
     public static int fib(int n) {
     if (n <= 1) return n;
     int a = 0, b = 1, c = 0;

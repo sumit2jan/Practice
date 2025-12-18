@@ -24,7 +24,7 @@ public class Patterns{
             System.out.println();
         }
 
-        System.out.println("Pyramid are done here now we are goimg to print the Right Handed Trinagle\n\n");
+        System.out.println("Pyramid are done here now we are going to print the Right Handed Trinagle\n\n");
         // Right angled triangle
         for (int i = 1; i <= num; i++) {
             for (int j = 1; j <= i; j++) {

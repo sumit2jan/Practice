@@ -25,7 +25,7 @@ public class Palindrome {
         if (c >= 'A' && c <= 'z' ) {
             return true;
         }
-         if (c >= 'a' && c <= 'b' ) {
+         if (c >= 'a' && c <= 'z' ) {
             return true;
         }
         if (c >= '0' && c <= '9' ) {
