@@ -2,7 +2,7 @@ package StringBuilder.Builder;
 
 public class BufferString {
     public static void main(String[] args) {
-        StringBuilder rev = new StringBuilder("hello");
+        StringBuilder rev = new StringBuilder("hello World");
         for(int i=0; i<rev.length()/2; i++){
             int first = i;
             int last = rev.length()-1-i;
