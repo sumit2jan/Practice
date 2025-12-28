@@ -19,5 +19,6 @@ public class ArmStrong {
     public static void main(String[] args) {
         System.out.println(armStrong(153));
         System.out.println(armStrong(1573));
+        System.out.println(armStrong(54214));
     }
 }
