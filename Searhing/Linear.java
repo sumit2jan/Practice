@@ -12,5 +12,6 @@ public class Linear {
     public static void main(String[] args) {
         int[] arr = {2,1,5,4,9,8,6};
         System.out.println(Linearsrch(arr,5));  
+        System.out.println(Linearsrch(arr,4));  
       }
 }
