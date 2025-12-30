@@ -16,7 +16,10 @@ public class Bubble {
 
     public static void main(String[] args) {
         int[] arr = {2,4,3,7,7,8,10,5,1};
+        int[] arr1 = {2,4,3,7,7,8,10,5,1,3,4,5,6};
         Bubblesrt(arr);
+        Bubblesrt(arr1);
         System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr1));
     }
 }
