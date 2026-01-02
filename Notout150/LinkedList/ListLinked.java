@@ -244,6 +244,7 @@ public class ListLinked {
         System.out.println("implementing the reverse method");
         list1.reverse();
         list1.PrintList();
+        list1.append(0);
     }
 }
 
