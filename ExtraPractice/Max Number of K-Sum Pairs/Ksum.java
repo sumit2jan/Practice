@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Solution {
-    public int maxOperations(int[] nums, int k) {
+    public static int maxOperations(int[] nums, int k) {
         Arrays.sort(nums);   // Step 1: Sort the array
 
         int left = 0;
@@ -23,5 +23,10 @@ class Solution {
         }
 
         return count;
+    }
+
+    public static void main(String[] args){
+        int[] arr = {1,2,3,4,5,6,7};
+        System.out.println(maxOperations(arr,4));
     }
 }
