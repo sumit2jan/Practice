@@ -29,5 +29,6 @@ class Solution {
         int[] arr = {1,2,3,4,5,6,7};
         System.out.println(maxOperations(arr,4));
         System.out.println(maxOperations(arr,5));
+        System.out.println(maxOperations(arr,3));
     }
 }
