@@ -37,7 +37,9 @@ public class Palindrome {
     public static void main(String[] args){
         String str = "HELLEH";
         String strs = "hecdedf";
+        String strss = "jsgdsjdyhw";
         System.out.println(isPalindrome(str));
         System.out.println(isPalindrome(strs));
+         System.out.println(isPalindrome(strss));
     }
 }
