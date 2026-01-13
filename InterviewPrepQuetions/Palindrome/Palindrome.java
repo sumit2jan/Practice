@@ -41,5 +41,6 @@ public class Palindrome {
         System.out.println(isPalindrome(str));
         System.out.println(isPalindrome(strs));
          System.out.println(isPalindrome(strss));
+         System.out.println(isPalindrome(strss));
     }
 }
