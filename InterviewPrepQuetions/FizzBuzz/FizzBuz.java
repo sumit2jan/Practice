@@ -19,6 +19,7 @@ public class FizzBuz{
     }
     public static void main(String[] args){
         System.out.println(fizzBuzz(25));
+         System.out.println(fizzBuzz(28));
 
     }
 }
