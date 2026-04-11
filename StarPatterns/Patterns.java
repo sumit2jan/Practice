@@ -71,7 +71,7 @@ public class Patterns{
             System.out.println();
         }
 System.out.println("\n");
-        // Kokhla rectangle
+        // Khokhla rectangle
         for (int i = 1; i <= num; i++) {
             for (int j = 1; j < 9; j++) {
                 if (i==1 || i==num || j==1 ||j==num) {

@@ -22,7 +22,7 @@ public class Palindrome {
     }
 
     public static Boolean isCharOrDigit(char c){
-        if (c >= 'A' && c <= 'z' ) {
+        if (c >= 'A' && c <= 'Z' ) {
             return true;
         }
          if (c >= 'a' && c <= 'z' ) {

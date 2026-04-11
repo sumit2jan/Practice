@@ -21,4 +21,4 @@ public class Insertion {
         Insertionsrt(arr);
         System.out.println(Arrays.toString(arr));
     }
-}
+}   
